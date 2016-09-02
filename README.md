@@ -15,11 +15,13 @@ FROM nabobil/node-with-git:4.5.0-slim
 ## Building
 
 ```sh
-docker build -t nabobil/node-with-git:4.5.0-slim .
+bin/build
 ```
 
 ## Deploying
 
+Given that you have access to the Docker Hub repository, all you need to run is:
+
 ```sh
-docker push nabobil/node-with-git:4.5.0-slim
+bin/deploy
 ```

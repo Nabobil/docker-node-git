@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+docker push nabobil/node-with-git:4.5.0-slim
